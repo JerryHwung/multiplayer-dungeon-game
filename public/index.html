@@ -1,0 +1,29 @@
+<html>
+<head>
+    <title>Dungeon Explorer</title>
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="socket.io/socket.io.js"></script>
+    <script src="DungeonClient.js"></script>
+    <script src="https://hammerjs.github.io/dist/hammer.js"></script>
+</head>
+
+<body>
+<div id="session"></div>
+<canvas id=myCanvas width="500" height="500">
+    Your browser has no Canvas support!
+</canvas>
+<div id="scoreboard">
+    <table style="width:100%">
+        <tr>
+            <th>ID</th>
+            <th>Time used (s)</th>
+        </tr>
+    </table>
+</div>
+
+</body>
+
+</html>
